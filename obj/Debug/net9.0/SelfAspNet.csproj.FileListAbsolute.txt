@@ -337,3 +337,6 @@
 /Users/miyumasayama/apps/SelfAspNet/SelfAspNet/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Scripting.resources.dll
 /Users/miyumasayama/apps/SelfAspNet/SelfAspNet/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Scripting.resources.dll
 /Users/miyumasayama/apps/SelfAspNet/SelfAspNet/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Scripting.resources.dll
+/Users/miyumasayama/apps/SelfAspNet/SelfAspNet/obj/Debug/net9.0/SelfAspNet.sourcelink.json
+/Users/miyumasayama/apps/SelfAspNet/SelfAspNet/bin/Debug/net9.0/DotNetEnv.dll
+/Users/miyumasayama/apps/SelfAspNet/SelfAspNet/bin/Debug/net9.0/Sprache.dll
