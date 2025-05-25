@@ -1,0 +1,30 @@
+@model IEnumerable<SelfAspNet.Models.Book>
+@{
+  ViewData["Title"] = "Book List";
+}
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>ISBNコード</th>
+      <th>署名</th>
+      <th>価格</th>
+      <th>出版社</th>
+      <th>刊行日</th>
+      <th>配布サンプル</th>
+    </tr>>
+  </thead>
+  <tbody>
+    @foreach (var book in Model)
+    {
+      <tr>
+        <td>@book.Isbn</td>
+        <td>@book.Title</td>
+        <td>@book.Price</td>
+        <td>@book.Publisher</td>
+        <td>@book.Published.ToString("yyyy/MM/dd")</td>
+        <td>@book.Sample</td>
+      </tr>
+    }
+  </tbody>
+</table>
