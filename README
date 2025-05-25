@@ -1,0 +1,5 @@
+#コマンド説明
+- dotnet ef migrations add MigrationName
+  - エンティティからmigrationファイルを作成する
+- dotnet ef database update
+  - dbの更新追加
