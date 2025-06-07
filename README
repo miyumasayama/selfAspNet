@@ -3,3 +3,8 @@
   - エンティティからmigrationファイルを作成する
 - dotnet ef database update
   - dbの更新追加
+-  dotnet watch
+  - 立ち上げ
+
+# dbについて
+- mcr.microsoft.com/azure-sql-edgeを使用
