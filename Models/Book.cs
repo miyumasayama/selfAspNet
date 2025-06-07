@@ -18,8 +18,10 @@ public class Book
   [Display(Name = "配布サンプル")]
   public bool Sample { get; set; }
 
-  public ICollection<Review> Reviews { get; } = new List<Review>();
+  // virtual = オーバーライド可能。遅延読み込みやプロキシ生成が有効になる
+  // プロキシ＝自動生成。virtual付きのプロパティにアクセスした時にデータが読み込まれていなければ、自動でデータ取得を行なってくれる
+  public virtual ICollection<Review> Reviews { get; } = new List<Review>();
 
-  public ICollection<Author> Authors { get; } = new List<Author>();
+  public virtual ICollection<Author> Authors { get; } = new List<Author>();
 }
 
